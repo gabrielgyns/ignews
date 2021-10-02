@@ -14,9 +14,15 @@
 
     transition: filter 0.2s;
 
-    svg {
+    img {
+        border-radius: 50%;
+        margin-right: 1rem;
+    }
+
+    svg, img {
         width: 24px;
-        height: 24px;    
+        height: 24px;
+            
     }
 
     svg:first-child {
